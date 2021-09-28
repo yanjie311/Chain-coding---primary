@@ -77,7 +77,7 @@ static const char clickActionKey;
 - (UIImageView *)jmImagev {
     if (!_jmImagev) {
         _jmImagev = [[UIImageView alloc] init];
-        [self addSubview:self.jmImagev];
+        [self addSubview:_jmImagev];
     }
     return _jmImagev;
 }
